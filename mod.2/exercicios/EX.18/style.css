@@ -1,0 +1,16 @@
+
+@charset "UTF-8";
+@font-face {
+    font-family: 'Round 6' ;
+    src: url('fonts/Game\ Of\ Squids.otf'), url('fonts/Game\ Of\ Squids.ttf');
+}
+
+h1{
+    font-family: 'Round 6';
+    font-size: 3em;
+    font-weight: normal;
+}
+p{
+    font-family: 'Round 6'; 
+    font-weight: 500;
+}

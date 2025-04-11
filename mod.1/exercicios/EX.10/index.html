@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Links</title>
+    <style>
+        body{
+            background-color: rgb(247, 199, 176);
+        }
+        h1{
+            color: rgb(242, 68, 68);
+        }
+        h2{
+            color: rgb(242, 68, 68);
+        }
+        p{
+            color: rgb(242, 68, 68);
+        }
+        ul{
+            color: rgb(242, 68, 68);
+        }
+    </style>
+</head>
+<body>
+    <h1>Links e Âncoras</h1>
+    <hr>
+    <h2>Links Externos:</h2>
+    <p>Repositório no Github do Guanabara:<a href="https://gustavoguanabara.github.io/" target="_blank" rel="external" > Clique aqui!</a></p>
+    <p>Canal no Youtube do Guanabara:<a href="https://youtube.com/cursoemvideo" target="_blank" rel="external" > Clique aqui!</a></p>
+    <hr>
+    <h2>Links Internos:</h2>
+    <p>Primeira página do meu site é aqui!</p>
+    <p>Segunda página do meu site: <a href="pag02.html" rel="next">Clique Aqui!</a></p>
+    <p>Terceira página do meu site: <a href="noticias/pag03.html" rel="next" target="_self">Clique Aqui!</a></p>
+    <hr>
+    <h2>Links para Download:</h2>
+    <ul>
+        <li>Baixe o livro PDF: <abbr title="ARTE DA GUERRA.pdf"><a href="livro/A ARTE DA GUERRA.pdf" download="A ARTE DA GUERRA.pdf" type="application/pdf" >Arte da Guerra</a></abbr></li>
+        <li>Baixe o livro ZIP: <abbr title="ARTE DA GUERRA.zip"><a href="livro/A ARTE DA GUERRA.zip" download="A ARTE DA GUERRA.zip" type="application/zip">Arte da Guerra</a></abbr></li>
+        <!-- a abreviação precisa contornar toda a tag link, não só o texto, pois agora ele é um link, composto por toda a tag. -->
+    </ul>
+
+    
+</body>
+</html>

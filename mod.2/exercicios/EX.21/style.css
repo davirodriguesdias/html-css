@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+h1{
+    background-color: rgba(0, 0, 255, 0.39);
+    height: 200px;
+    width: 200px;
+    border: 10px solid black ;
+    padding: 10px;
+}
+
+a{
+    border: 2px dashed rgba(115, 187, 236, 0.821) ;
+}

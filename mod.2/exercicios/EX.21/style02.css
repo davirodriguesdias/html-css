@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(116, 116, 235, 0.641);
+
+}
+h1{
+    border: 20px solid black;
+    padding: 10px;
+    border-image: url(borda.png) 27 repeat;
+}
