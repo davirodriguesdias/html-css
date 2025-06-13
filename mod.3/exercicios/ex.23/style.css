@@ -3,7 +3,9 @@ body {
 }
 
 table {
+    position: relative;
     width: 600px;
+    height: 700px;
     border-collapse: collapse;
 }
 
@@ -19,8 +21,16 @@ td,th {
     padding: 10px;
 }
 
-thead,tfoot {
+thead{
+    
     background-color: gray;
+    position: sticky;
+    top: -1px;
+    color: white;
+}
+
+tfoot {
+    
     color: white;
 }
 
