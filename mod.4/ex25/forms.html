@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+    <label for="anim">Animes</label>
+    <select style="display: block;" name="anime" id="anim">
+
+        <option value="">---Escolha---</option>
+        <optgroup label="Dragonball">
+            <option value="SP">Goku</option>
+            <option value="CE">Vegeta</option>
+            <option value="RJ">Gohan</option>
+        </optgroup>
+        
+        <optgroup label="One Piece">
+            <option value="SP">Luffy</option>
+            <option value="CE">Zoro</option>
+            <option value="RJ">Sanji</option>
+        </optgroup>
+
+        <optgroup label="Naruto">
+            <option value="SP">Naruto</option>
+            <option value="CE">Sasuke</option>
+            <option value="RJ">Madara</option>
+        </optgroup>
+    </select>
+
+    <div>
+        <label for="tes">Escolha</label>
+        <input type="text" name="" id="tes" list="teste">
+        <datalist id="teste">
+            <option value="">Asta</option>
+        </datalist>
+    </div>
+
+    <div>
+        <label for="msg">Mensagem: </label>
+        <div>
+            
+            <textarea cols="30" rows="10" name="" id="msg"></textarea>
+        </div>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </div>1
+
+    </form>
+    
+</body>
+</html>
