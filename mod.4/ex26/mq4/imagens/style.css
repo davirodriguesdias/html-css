@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: ;
+    
+}
+
+html, body {
+    height: 100vh;
+}
+
+h1 {}
+
+
+body {
+    background-size: cover;
+    
+}
+
+@media screen and (max-width: 590px){
+    body {
+        background-image: url(back-phone.jpg);
+    }
+    
+}
+
+@media screen and (min-width: 600px){
+    body {
+        background-image: url(back-tablet.jpg);
+    }
+}
+
+
+@media screen and (min-width: 980px){
+    body {
+        background-image: url(back-pc.jpg);
+        
+    }
+}
+
+@media screen and (min-width: 1600px){
+    body {
+        background-image: url(back-tv.jpg);
+    }
+}
+
