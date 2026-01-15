@@ -1,5 +1,6 @@
-const iconmenu = document.querySelector("#menuburguer")
+const iconmenu = document.querySelector("#iconburguer")
 const menu = document.querySelector("#menu")
+
 
 iconmenu.addEventListener("click", () => {
     if(menu.style.display == "block") {
@@ -8,3 +9,10 @@ iconmenu.addEventListener("click", () => {
         menu.style.display = "block"
     }
 })
+
+// window.addEventListener("resize", () => {
+//     if(window.innerWidth >= 768) {
+//         menu.style.display = "block"
+//     }
+// })
+
